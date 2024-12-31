@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LeetCode Hints</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+
+    #get-hint-button {
+      width: 100%;
+      padding: 10px;
+      background-color: rgb(227, 125, 142);
+      color: rgb(61, 16, 63);
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    #get-hint-button:hover {
+      background-color: #da1980;
+    }
+
+    #loading {
+      display: none;
+      text-align: center;
+      color: #666;
+      margin: 10px 0;
+    }
+
+    #hint {
+      margin-top: 10px;
+      padding: 12px;
+      background-color: pink;
+      border-radius: 4px;
+      border: 1px solid #6e3030;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .error {
+      color: #dc3545;
+    }
+  </style>
+</head>
+<body>
+  <button id="get-hint-button">Get Hint</button>
+  <div id="loading">Loading hint...</div>
+  <div id="hint"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

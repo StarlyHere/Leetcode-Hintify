@@ -1,0 +1,22 @@
+
+{
+    "manifest_version": 3,
+    "name": "LeetCode Hint Helper",
+    "version": "1.0",
+    "description": "Get helpful hints for LeetCode problems",
+    "permissions": [
+      "activeTab"
+    ],
+    "host_permissions": [
+      "http://localhost:3000/*",
+      "https://leetcode.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
